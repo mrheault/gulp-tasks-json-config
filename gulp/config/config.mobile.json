@@ -1,0 +1,175 @@
+{
+  "configname": "Mobile",
+  "less": {
+    "src": "./content/css/main.mobile.less",
+    "dest": "./content/css/mobile"
+  },
+  "scripts": {
+    "src": "./content/scripts",
+    "dest": "./content/scripts/mobile"
+  },
+  "bundle": {
+    "jquery-1.10.2": {
+      "scripts": [
+        "./content/scripts/jquery-1.10.2.min.js"
+      ]
+    },
+    "jquery-2.1.1": {
+      "scripts": [
+        "./content/scripts/jquery-2.1.1.min.js"
+      ]
+    },
+    "giftcard": {
+      "scripts": [
+        "./content/scripts/giftcard.js"
+      ]
+    },
+    "early": {
+      "scripts": [
+        "./content/scripts/jquery.fancybox.pack.js",
+        "./content/scripts/modernizr-2.6.2.min.js",
+        "./content/scripts/jquery.qtip.js",
+        "./content/scripts/jquery.smartbanner.js",
+        "./content/scripts/promobar.js"
+      ]
+    },
+    "account": {
+      "scripts": [
+        "./content/scripts/account-payment.mobile.js",
+        "./content/scripts/AccountUI.js",
+        "./content/scripts/order-history.mobile.js",
+        "./content/scripts/order-notes.mobile.js"
+      ]
+    },
+    "main": {
+      "scripts": [
+        "./content/scripts/jquery.tmpl.js",
+        "./content/scripts/jquery.jscrollpane.js",
+        "./content/scripts/jquery.expander.min.js",
+        "./content/scripts/jquery.carouFredSel-6.2.1-packed.js",
+        "./content/scripts/jquery.touchSwipe.min.js",
+        "./content/scripts/downloadApp.klmobile.js",
+        "./content/scripts/jquery.mustache.js",
+        "./content/scripts/mwheelIntent.js",
+        "./content/scripts/jquery.mousewheel-3.0.4.pack.js",
+        "./content/scripts/jquery.trunk8.min.js",
+        "./content/scripts/json2.js",
+        "./content/scripts/namespace.js",
+        "./content/scripts/ClientState.js",
+        "./content/scripts/jquery-ui-1.10.3.custom.min.js",
+        "./content/scripts/jquery.blockUI.js",
+        "./content/scripts/jquery.flexslider.js",
+        "./content/scripts/jquery.validate.js",
+        "./content/scripts/jquery.validate.customrules.js",
+        "./content/scripts/jquery.formHints.js",
+        "./content/scripts/jquery.hoverIntent.js",
+        "./content/scripts/Auth.js",
+        "./content/scripts/jquery.ba-bbq.min.js",
+        "./content/scripts/jquery.formalize.min.js",
+        "./content/scripts/ac_words.js",
+        "./content/scripts/Common.js",
+        "./content/scripts/Careers.js",
+        "./content/scripts/Events.js",
+        "./content/scripts/QueryString.js",
+        "./content/scripts/Account.js",
+        "./content/scripts/AccountUI.js",
+        "./content/scripts/Device.js",
+        "./content/scripts/Minicart.js",
+        "./content/scripts/Hash.js",
+        "./content/scripts/jquery.validate.unobtrusive.js",
+        "./content/scripts/jquery.validate.unobtrusive-adapters.js",
+        "./content/scripts/jquery.unobtrusive-ajax.min.js",
+        "./content/scripts/Product.js",
+        "./content/scripts/ProductThumbnail.js",
+        "./content/scripts/jquery.awesomeloader.1.0.js",
+        "./content/scripts/countdown.js",
+        "./content/scripts/Bootstrapper.js",
+        "./content/scripts/zendeskchat.js",
+        "./content/scripts/jquery.orbit-1.3.js",
+        "./content/scripts/Facebook/FacebookEventBinder.js",
+        "./content/scripts/Facebook/MiniFacebookLogin.js",
+        "./content/scripts/social.js",
+        "./content/scripts/nanigans.js",
+        "./content/scripts/Optimizely.js",
+        "./content/scripts/cloudzoom.js",
+        "./content/scripts/cloudzoom-custom.js",
+        "./content/scripts/gallery.js",
+        "./content/scripts/Libraries/jquery.jcarousel.js",
+        "./content/scripts/limit.js",
+        "./content/scripts/jquery.zclip.min.js",
+        "./content/scripts/header.js",
+        "./content/scripts/imageMapResizer.min.js",
+        "./content/scripts/brands.js",
+        "./content/scripts/ScrollTop.js",
+        "./content/scripts/sliding-menu.mobile.js",
+        "./content/scripts/jquery.bday-picker.js",
+        "./content/scripts/cookie.mobile.js",
+        "./content/scripts/constants.mobile.js",
+        "./content/scripts/dataresponse.mobile.js",
+        "./content/scripts/signout.mobile.js",
+        "./content/scripts/accordion.mobile.js",
+        "./content/scripts/utility.mobile.js",
+        "./content/scripts/spin.mobile.js",
+        "./content/scripts/search.mobile.js",
+        "./content/scripts/home.mobile.js",
+        "./content/scripts/browse-mobile.js",
+        "./content/scripts/forgot-password.mobile.js",
+        "./content/scripts/Base64.js"
+      ]
+    },
+    "cart": {
+      "scripts": [
+        "./content/scripts/Checkout/CustomValidation.js",
+        "./content/scripts/Checkout/CardTypes.js",
+        "./content/scripts/Checkout/DiscountCodes.js",
+        "./content/scripts/Checkout/ExpressCheckout.js",
+        "./content/scripts/Checkout/FacebookShare.js",
+        "./content/scripts/Checkout/MasterPass.js",
+        "./content/scripts/Checkout/V.me.klmobile.js",
+        "./content/scripts/Checkout/PanelTransition.js",
+        "./content/scripts/Checkout/PaymentMode.js",
+        "./content/scripts/Checkout/RequestBuilder.js",
+        "./content/scripts/Checkout/Shipping.js",
+        "./content/scripts/Checkout/ServerErrors.js",
+        "./content/scripts/Checkout/SubmitOrder.js",
+        "./content/scripts/Checkout/ReviewOrder.js",
+        "./content/scripts/Checkout/CartView.js",
+        "./content/scripts/Checkout/ThirdParty.js",
+        "./content/scripts/Checkout/UserLogin.js",
+        "./content/scripts/Checkout/Startup.js",
+        "./content/scripts/Checkout/Analytics.js",
+        "./content/scripts/CartEmail.js",
+        "./content/scripts/sha3.js",
+        "./content/scripts/Cart.js"
+      ]
+    },
+    "browse": {
+      "scripts": [
+        "./content/scripts/Browse/Values.js",
+        "./content/scripts/Browse/Filters.js",
+        "./content/scripts/Browse/Slider.js",
+        "./content/scripts/Browse/CategoryClick.js",
+        "./content/scripts/Browse/CategoryNode.js",
+        "./content/scripts/Browse/FilterCollapsableState.js",
+        "./content/scripts/Browse/Items.js",
+        "./content/scripts/Browse/Pagination.js",
+        "./content/scripts/Browse.js"
+      ]
+    },
+    "search": {
+      "scripts": [
+        "./content/scripts/Browse/Values.js",
+        "./content/scripts/Search/Filters.js",
+        "./content/scripts/Browse/Slider.js",
+        "./content/scripts/Browse/CategoryClick.js",
+        "./content/scripts/Browse/CategoryNode.js",
+        "./content/scripts/Browse/FilterCollapsableState.js",
+        "./content/scripts/Search/Items.js",
+        "./content/scripts/Browse/Pagination.js",
+        "./content/scripts/Browse/MultiSelect.js",
+        "./content/scripts/multiSelect.js",
+        "./content/scripts/Browse.js"
+      ]
+    }
+  }
+}
